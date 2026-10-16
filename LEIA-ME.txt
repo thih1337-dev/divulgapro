@@ -1,0 +1,23 @@
+DIVULGAPRO 0.2 — protótipo funcional para teste
+
+Arquivos:
+- index.html: interface do aplicativo.
+- manifest.json: configuração para instalação como PWA.
+- sw.js: cache offline básico, habilitado em hospedagem HTTPS.
+- LEIA-ME.txt: estas instruções.
+
+FUNÇÕES IMPLEMENTADAS:
+- Navegação entre Início, Anúncios, Grupos, Histórico e Conexões.
+- Criar, editar, salvar, usar e excluir anúncios.
+- Montar prévia, copiar, compartilhar pelo Android e abrir WhatsApp com texto.
+- Cadastrar, editar e excluir destinos/grupos, com confirmação de autorização para divulgar.
+- Histórico local de compartilhamentos (não comprova publicação concluída).
+- Exportar backup JSON e apagar dados locais.
+- Dados salvos no armazenamento local do navegador.
+
+LIMITAÇÕES:
+- Ainda não é um APK nativo.
+- Para instalação PWA, publique por HTTPS e acesse pelo Chrome.
+- Não inclui login OAuth, backend, nem publicação automática em grupos.
+- As APIs oficiais não oferecem autorização universal para postar em grupos comuns; integrações futuras devem ser aprovadas e respeitar regras.
+- Os dados ficam neste navegador/aparelho; limpar os dados do navegador pode apagá-los.

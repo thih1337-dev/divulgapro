@@ -1,0 +1,10 @@
+{
+  "name": "DivulgaPro",
+  "short_name": "DivulgaPro",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a1016",
+  "theme_color": "#0c1218",
+  "description": "Central de criação e organização de anúncios"
+}
